@@ -1,0 +1,132 @@
+canonical_identifier: bkk:krp/KR6d0066/v1
+canonical_location: https://kanripo.org/bkk/KR6d0066/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 法華經要解科
+  identifiers:
+    alt_id:
+    - X30n0601
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X30/X30n0601.xml
+    old_id: X30n0601
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0066_000.yaml, hash: 'sha256:9d16725d4fd3956baeac2a9d0e6fa79b6c48bacb069982386fde26acebbe24a8'}
+  - {seq: 1, filename: KR6d0066_001.yaml, hash: 'sha256:bb97ea391986800e17996dc06c20c4d5dba2d9af05b32236461a2369ec39fbe6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6d0066_001.markers.yaml, hash: 'sha256:b638a6a00ce6f1c811a00f7cda449d59acebeb80d6d0a608bba453e9ddebf3d9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 7622
+  label: 法華經要解科
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 法華經弘傳序科文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-2
+    span:
+    - body
+    - 274
+    - 274
+  label: 妙法蓮華經解科文
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-3
+    span:
+    - body
+    - 282
+    - 282
+  label: 第一卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-4
+    span:
+    - body
+    - 1335
+    - 1335
+  label: 第二卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-5
+    span:
+    - body
+    - 2261
+    - 2261
+  label: 第三卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-6
+    span:
+    - body
+    - 3104
+    - 3104
+  label: 第四卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-7
+    span:
+    - body
+    - 4238
+    - 4238
+  label: 第五卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-8
+    span:
+    - body
+    - 5480
+    - 5480
+  label: 第六卷
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0066_X_001-mulu-9
+    span:
+    - body
+    - 6698
+    - 6698
+  label: 第七卷
+  type: mulu
+  level: 1
+hash: sha256:a2fcd82d230a51c951c13a034a056d73b88acae63fc42d0ffc77f7f98f872275
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
