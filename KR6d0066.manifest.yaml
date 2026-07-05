@@ -22,9 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0066_000.yaml, hash: 'sha256:9d16725d4fd3956baeac2a9d0e6fa79b6c48bacb069982386fde26acebbe24a8'}
-  - {seq: 1, filename: KR6d0066_001.yaml, hash: 'sha256:bb97ea391986800e17996dc06c20c4d5dba2d9af05b32236461a2369ec39fbe6'}
+  - {seq: 1, filename: KR6d0066_001.yaml, hash: 'sha256:2255bb83bf20e36727b7570725b677af84e56d5ac69610929f2c4503991cf0cd'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6d0066_001.markers.yaml, hash: 'sha256:b638a6a00ce6f1c811a00f7cda449d59acebeb80d6d0a608bba453e9ddebf3d9'}
+  - {seq: 0, role: markers, filename: assets/KR6d0066_000.markers.yaml, hash: 'sha256:94a87abb8de8fda58b0a0911682390bfab1cf6be2d6dd9770d4dc83669d1d4d1'}
+  - {seq: 1, role: markers, filename: assets/KR6d0066_001.markers.yaml, hash: 'sha256:a878f8ad867936caa3613f677da1638605f5f715ce85150fcd56e9378d86902f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -126,7 +127,4 @@ table_of_contents:
   label: 第七卷
   type: mulu
   level: 1
-hash: sha256:a2fcd82d230a51c951c13a034a056d73b88acae63fc42d0ffc77f7f98f872275
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c3a4076645cb32c8b613ab84dbf482df15bca587030d21b1158c80a3ac90bb7c
