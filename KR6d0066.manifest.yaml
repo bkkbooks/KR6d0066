@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6d0066/v1
 canonical_location: https://kanripo.org/bkk/KR6d0066/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 法華經要解科
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6d0066_000.yaml, hash: 'sha256:9d16725d4fd3956baeac2a9d0e6fa79b6c48bacb069982386fde26acebbe24a8'}
-  - {seq: 1, filename: KR6d0066_001.yaml, hash: 'sha256:2255bb83bf20e36727b7570725b677af84e56d5ac69610929f2c4503991cf0cd'}
+  - {seq: 1, filename: KR6d0066_001.yaml, hash: 'sha256:821224d585e5a28304e0ebde3d59e0626ceba388893c858a688fc7ffab08593b'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6d0066_000.markers.yaml, hash: 'sha256:94a87abb8de8fda58b0a0911682390bfab1cf6be2d6dd9770d4dc83669d1d4d1'}
-  - {seq: 1, role: markers, filename: assets/KR6d0066_001.markers.yaml, hash: 'sha256:a878f8ad867936caa3613f677da1638605f5f715ce85150fcd56e9378d86902f'}
+  - {seq: 1, role: markers, filename: assets/KR6d0066_001.markers.yaml, hash: 'sha256:7e6aadb74ae9ddea7e476feaba5023d08b9ad59cde59cae6d1c6bca3a7c0b66f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -127,4 +127,7 @@ table_of_contents:
   label: 第七卷
   type: mulu
   level: 1
-hash: sha256:c3a4076645cb32c8b613ab84dbf482df15bca587030d21b1158c80a3ac90bb7c
+hash: sha256:6a0d5a6e6ec7e26953fd842a9253957f3421425a03589331d31c10af3479ce24
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
